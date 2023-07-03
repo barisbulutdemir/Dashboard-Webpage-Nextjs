@@ -3,6 +3,8 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import Footer from '@/companents/footer/Footer'
 import Menu from '@/companents/LeftMenu/Menu'
+import Calender from '@/companents/Calender/Calender'
+import CalenderNotes from '@/companents/Calender/CalenderNotes'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,11 +16,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="w-[90%] mx-auto">
+      <body className="w-[95%] mx-auto">
         
         <div className='flex justify-between'>
           
-          <div className='w-[15%]  h-screen '>
+          <div className='w-[10%]  h-screen '>
             <Menu />
           </div>
           
@@ -27,9 +29,9 @@ export default function RootLayout({ children }) {
             {children}
             <Footer />
           </div>
-
-          <div className='w-[20%] h-screen bg-green-200'>
-            Takvim kısmı
+          <div className='w-[25%] h-screen '>
+            <Calender />
+            <CalenderNotes />
           </div>
         </div>
        

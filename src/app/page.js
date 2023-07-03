@@ -13,7 +13,8 @@ export default function Home() {
               <div className="basis-1/2"><Progres /></div>
               
               <div className="flex flex-col basis-1/2"> 
-                <Projects />
+
+                <Projects  />
                 <Tasks />
               </div>
              

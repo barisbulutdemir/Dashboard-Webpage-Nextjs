@@ -51,3 +51,26 @@ export const progressData = [
 ]
 
 
+export const tasks = [
+    {
+        title:'Bregentved transferi için gidecek malzemeler',
+        category:'Genel',
+
+    },
+    {
+        title:'Gidecek olan personellerin sisteme girilmesi',
+        category:'Daily',
+
+    },
+    {
+        title:'Accomadation güncellemesi',
+        category:'Daily',
+
+    },
+    {
+        title:'Accomadation güncellemesi',
+        category:'Daily',
+
+    },
+]
+
